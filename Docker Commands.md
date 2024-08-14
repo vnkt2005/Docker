@@ -14,6 +14,12 @@
 ```
 
 #Docker commands
+
+#test.py
+```sh
+  print("This is my first python image")
+```
+
 ```sh
   $docker build -t myimage .
 ```
