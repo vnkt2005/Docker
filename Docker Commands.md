@@ -34,5 +34,7 @@
   $docker run myimage
 ```
 
-$ docker login -u "myusername" -p "mypassword" docker.io
-$ docker push projetofinal2_web
+```sh
+  $ docker login -u "myusername" -p "mypassword" docker.io
+  $ docker push projetofinal2_web
+```
