@@ -30,4 +30,6 @@
 
 ```sh
   $docker build -t myimage .
+  $docker images
+  $docker run myimage
 ```
