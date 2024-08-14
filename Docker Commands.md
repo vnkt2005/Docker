@@ -12,3 +12,8 @@
 
   $ls -lrt
 ```
+
+#Docker commands
+```sh
+  $docker build -t myimage .
+```
