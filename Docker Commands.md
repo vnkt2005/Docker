@@ -4,4 +4,5 @@
 ```sh
   $hostname
   $hostname -i
+  $cat $"Docker Commands.md"
 ```
