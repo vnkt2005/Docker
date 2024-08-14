@@ -9,4 +9,6 @@
   $cd day02
   $git clone "https://github.com/vnkt2005/Docker.git
   $cat $"Docker Commands.md"
+
+  $ls -lrt
 ```
