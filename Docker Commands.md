@@ -13,11 +13,19 @@
   $ls -lrt
 ```
 
-#Docker commands
+#Building a simple Docker imaage for simple python application
 
 #test.py
 ```sh
   print("This is my first python image")
+```
+
+#Dockerfile
+```sh
+  FROM python
+  WORKDIR /app
+  COPY . /app
+  CMD ["python3","test.py"]
 ```
 
 ```sh
