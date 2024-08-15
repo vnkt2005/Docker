@@ -35,6 +35,12 @@
 ```
 
 ```sh
+  $docker run container -d -p 3000:3000 test
+  $docker container ls
+  $docker container stop 123ef260521db3
+```
+
+```sh
   $ docker tag myimage vnkt2020/myimage
   $ docker push vnkt2020/myimage
   $ docker login -u "myusername" -p "mypassword" docker.io
