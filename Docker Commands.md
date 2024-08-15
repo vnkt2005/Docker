@@ -35,6 +35,8 @@
 ```
 
 ```sh
+  $ docker tag myimage vnkt2020/myimage
+  $ docker push vnkt2020/myimage
   $ docker login -u "myusername" -p "mypassword" docker.io
   $ docker push projetofinal2_web
 ```
